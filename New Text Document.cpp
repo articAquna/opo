@@ -3,8 +3,9 @@ using namespace std;
 int  function(int p) {
 	if (p == 0)return 0;
 	cout << p << endl;
-		return p + function(p - 1);
-
+	for ( int i = 0 ; i < 5 ; i++){ 
+		return p + function(p - i);
+	}
 }
 
 		int main() {
@@ -14,3 +15,4 @@ int  function(int p) {
 		cout << function(a);
 
 	}
+
