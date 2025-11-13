@@ -9,8 +9,9 @@ int  function(int p) {
 
 		int main() {
 			int a;
-		cout << "a rough day indeed";
+		cout << "its a recursive funtion defined to mimict p";
 		cin >> a;
 		cout << function(a);
 
 	}
+
